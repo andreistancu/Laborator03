@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ro.pub.cs.systems.eim.lab03.phonedialer.PhoneDialerActivity">
+
+    <LinearLayout
+        android:layout_width="385dp"
+        android:layout_height="508dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            app:srcCompat="@android:drawable/ic_input_delete"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:rowCount="6"
+            android:columnCount="3"
+            >
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="1"
+                tools:layout_editor_absoluteX="46dp"
+                tools:layout_editor_absoluteY="74dp" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="2"
+                tools:layout_editor_absoluteX="46dp"
+                tools:layout_editor_absoluteY="74dp" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="3"
+                tools:layout_editor_absoluteX="46dp"
+                tools:layout_editor_absoluteY="74dp" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="4"
+                tools:layout_editor_absoluteX="46dp"
+                tools:layout_editor_absoluteY="74dp" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="5"
+                tools:layout_editor_absoluteX="46dp"
+                tools:layout_editor_absoluteY="74dp" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="6"
+                tools:layout_editor_absoluteX="46dp"
+                tools:layout_editor_absoluteY="74dp" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="7"
+                tools:layout_editor_absoluteX="46dp"
+                tools:layout_editor_absoluteY="74dp" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="8"
+                tools:layout_editor_absoluteX="46dp"
+                tools:layout_editor_absoluteY="74dp" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="9"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <Button
+                android:id="@+id/button_star"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="*"
+                tools:layout_editor_absoluteX="187dp"
+                tools:layout_editor_absoluteY="86dp" />
+
+            <Button
+                android:id="@+id/button0"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="0"
+                tools:layout_editor_absoluteX="187dp"
+                tools:layout_editor_absoluteY="86dp" />
+
+            <Button
+                android:id="@+id/button_diez"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="#"
+                tools:layout_editor_absoluteX="187dp"
+                tools:layout_editor_absoluteY="86dp" />
+
+            <ImageButton
+                android:id="@+id/call_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@android:drawable/stat_sys_phone_call" />
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@android:drawable/stat_notify_missed_call" />
+
+            <ImageButton
+                android:id="@+id/imageButton4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@android:drawable/sym_call_missed" />
+
+        </GridLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
